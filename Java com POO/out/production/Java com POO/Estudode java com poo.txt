@@ -1,0 +1,130 @@
+AULAS  DE POO !!!
+
+1º Aula: 
+-Objetivo do poo é aproximar o mundo digital ao mundo real
+-Quem criou a poo foi alan kay, EM 1970
+-A primeira linguagem de programação foi o smalltalk
+-Vantagens:
+	1 Confiavel;
+	2 Oportuno;
+	3 Manutenível;
+	4 Extensível;
+	5 Reutilizável;
+	6 Natural.
+
+2º Aula:	Foi a instalação da IDE.
+
+3º Aula:
+- é tudo que tem caracteristicas, comportamentos e estados;
+- A classe sempre tem que responder 3 perguntas:
+	1 Atributos = caracteristica;
+	2 Método = ações ;
+	3 Estado = resultado das ações.
+- A classe intancia um objeto, ou seja, cria um objeto a partir dos 3 requesitos anterior.
+*Exercício:*
+ cadeiras- pés= 4,cor dos pés= marrom, cor da cadeira= cinza, modelo = moderno, material= madeira. estado= desocupada.
+ geladeira- cor= branca, marca= consul, modelo= frostfree, portas= 2. estado= ligada.
+ 
+ aula- materia= programação, assunto= poo, tempo= 60 minutos, modo de aula= remoto. estado= online.
+
+4º Aula: foi aula pratica.
+
+5º Aula:
+-Modificadores de visibilidade é o que indica o nível de acesso aos 3 requesitos de uma classe (atributos, metodos e ações).
+- 	+ indica publico (public);
+	- privado (private);
+	# protegido (protect).	
+
+6º Aula: foi aula pratica.
+
+7ºAula:  Metodos especiais:
+
+getter= metodo acessor com mais segurança;
+setter= metodo modificador, serve pra adicionaratraves de um parametro;
+construct= metodo construtor.
+
+8º Aula: foi aula pratica.
+
+9º Aula: Aula pratica.
+
+10ºAula: Aula pratica.
+
+11º Aula: 3 pilares do POO, são:
+	-E= Encapsulamento;
+	-H= Herança;
+	-P= Polimorfismo. 
+
+Encapsulamento= Tem o mesmo padrão, protege o codigo do usuario = usuario do codigo.
+a comunicação é feita através de mensagem pela inrerface, não deixando ver/interagir com o codigo base.
+
+Vantagens: Tornar mudanças invisiveis, Facilitar reutilização de codigo, Reduzir os efeitos colaterais.
+
+Exemplo de Encapsulamento: Controle remoto, carro.
+
+12º Aula: Aula pratica; override é igual a subescrever
+
+13º Aula: Aula pratica. 
+
+14º Aula: Relacionamento de classes com agregração.
+
+15º Aula: Perguntas e respostas teóricas;
+		1º) Uma casa esta´para uma planta arquitetonica
+		    assim como um objeto está para...
+
+			resposta: Classe 
+
+		2º) A programação orientada a objetos se preocupa
+		    em produzir software que tenha as seguintes caracteristica...
+
+			respostas: Confiavel, oportuno,reutilizavel, manutenivel, extensivel, natural.
+
+		3º) Assinale a alternativa incorreta com relação ao conceito de classe e objetos em poo
+
+		     resposta: Classe é instancia de um objeto.
+		
+		4º) Assinale a alternativa incorreta sobre a definição de termos usados em poo:
+		
+			resposta:  Compartamento são as caracteristicas de uma classe invisiveis externamente.
+
+		5º) A maioria das linguagens orientadas a objetos suporta quais niveis de acesso?
+		
+			resposta: publico, protegido e privado 
+
+16º Aula: 
+Herança= Permite basear uma nova classe na definção de outra clase previamente existente.  
+
+a herança será aplicada tanto nas caracteristicas como no comportamentos.
+
+17º Aula:
+Classe Projenitora:é uma classe principal; (Raiz/Descendente)
+
+Classe subclasse: é uma classe que herda caracteristicas da classe projenitora; (Folha/Ancestrais)
+
+OBS: uma subclasse também pode ser projenitora.
+
+Quando lido uma herança de baixo para cima, ou seja, da classe projenitora as subclasses  dizemos que a leitura é
+ESPECIALIZAÇÃO. E quando feita de baixo para cima damos o nome de GENERALIZAÇÃO
+
+TIPOS DE HERANÇA:
+        1ºHerança de implementação:
+            -É quando subclasses herdam caracteristica da sua projenitora mas tambem fazem implementações de novas caracteristicas.
+
+        2º Herança para diferença:
+
+ABSTRATO E FINAL:
+
+    CLASSE ABSTRATA: NÃO PODE SER INSTANCIADA, SO PODE SER A PROGENITOROA;
+    METODO ABSTRATO: ELE É DECLARADO, MAS NÃO É USADO DENTRO DA PROGENITORA, OU SEJA, USADO EM INTERFACES.
+
+
+    CLASSE FINAL: NÃO PODE SER HERDADADE DE OUTRA CLASSE, OU SEJA, ELA É OBRIGATORIAMENTE FOLHA;
+    METODO FINAL: NÃO PODE SER SUBRESCRITO PELAS SUAS SUB-CLASSES, ELE É OBRIGATORIAMENTE HERDADO.
+
+18º Aula:
+Polimorfismo: Permite que um mesmo nome tenha varias maneiras de comportamento, por exemplo acordar.
+
+Assinatura de metodos: Consiste na quatidade e os tipos de parametros.
+
+Tipos de polimorfismo:
+     -Sobreposição (override): Acontece quando  substituimos um metodo de uma superclasse na minha classe e eu altero seu estado
+     -Sobrecarga:
